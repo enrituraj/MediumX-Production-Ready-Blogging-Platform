@@ -1,10 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Homepage = () => {
   return (
-    <div>
-        <h1>Homepage</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius quam rem inventore nesciunt laborum molestias cum nemo id quae illo nobis, doloribus numquam voluptatum repudiandae mollitia necessitatibus, magnam similique eligendi quia qui. Quam neque, illo non rerum tempora incidunt maiores quasi pariatur recusandae commodi! Qui sunt officiis beatae dolores blanditiis. Modi eveniet, nisi vero quibusdam adipisci necessitatibus neque nihil. Amet similique minima facere, accusamus perferendis voluptas? Voluptates maiores ex natus ad cupiditate delectus molestias qui esse adipisci consequatur, quo blanditiis, dignissimos quis distinctio accusamus corporis repudiandae atque. Aspernatur eum maiores explicabo tenetur nobis tempore reprehenderit! Facere, consequatur! Repellat minima sed voluptatem. Dolores excepturi ea doloribus tempore officia dolorum illo adipisci? Impedit voluptatibus, odit dolorum iusto esse cum pariatur perspiciatis, corrupti expedita aut accusamus eum. Soluta iusto optio, aspernatur quasi reprehenderit eius ex? Minus, deserunt accusantium! Vel accusamus quasi provident, eius labore amet numquam excepturi, id eligendi cum facere voluptas illo! Sequi necessitatibus ullam veritatis quisquam quae suscipit, autem deleniti officiis sed aliquid atque modi fugiat maxime quos incidunt dolorum repellendus hic, eius eaque rerum ratione. Eius iure ipsum et voluptas corporis quo. Facere minima vitae aliquid unde facilis, in, nobis vero tenetur natus, nostrum accusamus reiciendis temporibus eum quos molestias magni. Architecto dignissimos quo dolore, libero, ducimus qui, suscipit fugit totam autem ipsam exercitationem cupiditate neque modi animi corrupti enim nostrum consequatur minima culpa doloremque soluta? Eos officiis laudantium suscipit, quam nam ipsa similique sunt sit, qui iste doloribus hic ea error iusto? Distinctio, vel? Tempore id eligendi harum ratione, vero sint iusto! Repudiandae fugit fuga minus sit iusto placeat. Fuga rerum soluta placeat incidunt ab vero a voluptatum ducimus aliquid laboriosam, tempore veniam laudantium natus nesciunt facilis magnam nemo dicta harum perspiciatis amet aliquam. Cumque voluptate laborum, inventore saepe ut ex nemo fugit quae ducimus, repellendus fuga. Soluta sunt velit ipsum ipsam accusamus voluptas eos obcaecati et officia, vel quos quo quam repellat amet suscipit labore aliquid distinctio magnam voluptatum? Nulla fuga reiciendis consequuntur dolorum corrupti, quos quod dicta modi fugit inventore saepe dolorem voluptates animi consectetur. Cupiditate animi, amet accusamus vero ad, cum minus molestiae, voluptatum dolores debitis velit at magni quo iure accusantium recusandae architecto esse repudiandae. Molestiae aliquam voluptatum suscipit incidunt nemo iusto eos cumque aliquid architecto eaque adipisci praesentium repudiandae blanditiis non molestias, corporis dolorum deserunt dolorem repellendus in? Ipsam laborum temporibus distinctio, itaque nam deserunt eum corrupti veniam unde commodi iure laboriosam autem? Laboriosam, temporibus exercitationem sint quos ipsum quod saepe, delectus pariatur laborum provident tempora ex voluptatum rem totam cumque quo aliquam dicta deserunt quam non cupiditate qui harum praesentium eveniet. Earum fugit laudantium et hic aperiam molestiae rerum dolor cum libero reiciendis magnam pariatur officia exercitationem, id illum ipsum expedita voluptates natus consequatur incidunt, eligendi temporibus. Sunt odit voluptate beatae harum mollitia ipsam aspernatur ipsum? Dolor debitis enim, corporis veniam qui saepe distinctio laborum ipsam ex dolores necessitatibus aliquid consectetur fugit omnis sint fuga libero! Modi deleniti vitae sequi odio, delectus, dignissimos vero odit aperiam aliquid, excepturi sunt quae doloribus voluptatibus?</p>
+    <div className='flex justify-between items-center h-screen bg-amber-50'>
+      <div className='container mx-auto'>
+        <h1 className='text-9xl'>Human <br />
+          stories & ideas</h1>
+        <p>A place to read, write, and deepen your understanding</p>
+        <Link to="/login">Start Reading</Link>
+      </div>
+        <div>
+          image
+        </div>
     </div>
   )
 }
