@@ -7,9 +7,9 @@ const PublicLayouts = () => {
       <div className=" m-auto bg-amber-50 border border-b-2">
         <nav className='max-w-7xl m-auto flex justify-between items-center p-4 '>
           <Link to="/">
-            <h1 className='text-3xl font-bold'>MediumX</h1>
+            <h1 className='text-3xl font-bold font-display'>MediumX</h1>
           </Link>
-          <div className='flex gap-4 items-center'>
+          <div className='flex gap-4 items-center font-sans'>
             <Link to="/about">Our Story</Link>
             <Link to="/membership">Membership</Link>
             <Link to="/write">Write</Link>
